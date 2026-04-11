@@ -24,3 +24,6 @@ class LoginPage:
         self.enter_username(username)
         self.enter_password(password)
         self.click_login()
+
+    def get_error_message(self):
+        return self.page.locator(".oxd-alert-content-text").text_content()
