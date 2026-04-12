@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f95652-d292-452f-b76c-9171fd6169c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_invalid_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for tests.test_api.test_get_users.executor": "Run",
     "Python tests.Python tests for tests.test_invalid_login.test_invalid_login.executor": "Run",
     "Python tests.Python tests for tests.test_login.test_valid_login.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,7 +51,22 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_invalid_login.test_invalid_login">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_api.test_get_users">
+    <configuration name="Python tests for tests.test_api.test_get_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SaaS-Playwright-Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_api.test_get_users&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_invalid_login.test_invalid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SaaS-Playwright-Project" />
       <option name="ENV_FILES" value="" />
@@ -82,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_api.test_get_users" />
         <item itemvalue="Python tests.Python tests for tests.test_invalid_login.test_invalid_login" />
         <item itemvalue="Python tests.Python tests for tests.test_login.test_valid_login" />
       </list>
