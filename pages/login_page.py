@@ -1,29 +1,10 @@
-from playwright.sync_api import Page
-from utils.config import Config
-
-
+from test_data.user_data import UserData
+username = UserData.NAME
+useremail = UserData.EMAIL
 class LoginPage:
-    def __init__(self, page: Page):
+    def __init__(self, page):
         self.page = page
-
-    def load(self):
-        self.page.goto(Config.BASE_URL)
-
-    def enter_username(self, username: str):
-        self.page.locator('input[name="username"]').wait_for(state="visible")
-        self.page.fill('input[name="username"]', username)
-
-    def enter_password(self, password: str):
-        self.page.fill('input[name="password"]', password)
-
-    def click_login(self):
-        self.page.click('button[type="submit"]')
-
-    def login(self, username: str, password: str):
-        self.load()
-        self.enter_username(username)
-        self.enter_password(password)
-        self.click_login()
-
-    def get_error_message(self):
-        return self.page.locator(".oxd-alert-content-text").text_content()
+    def sign_up(self,name,email):
+        self.page.locator("input[data-qa='signup-name']").fill(name)
+        self.page.locator("input[data-qa='signup-email']").fill(email)
+        self.page.get_by_role("button", name= "Signup").click()
