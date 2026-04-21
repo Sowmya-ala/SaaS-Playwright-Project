@@ -1,6 +1,5 @@
 from test_data.user_data import UserData
-username = UserData.NAME
-useremail = UserData.EMAIL
+
 class LoginPage:
     def __init__(self, page):
         self.page = page

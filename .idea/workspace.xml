@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f95652-d292-452f-b76c-9171fd6169c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data/user_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_new_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SaaS-Playwright-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UI and API regression.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/account_created.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/signup_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admin_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_invalid_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/user_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_new_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_new_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
