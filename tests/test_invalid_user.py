@@ -6,7 +6,7 @@ from pages.login_page import LoginPage
 from test_data.user_data import ExistingUserData
 
 
-def invalid_user(page):
+def test_invalid_user(page):
     existing_user_data = ExistingUserData()
     page.goto(Config.BASE_URL)
     # Home Page validation
