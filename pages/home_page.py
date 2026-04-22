@@ -7,3 +7,6 @@ class HomePage:
 
     def delete_account(self):
         self.page.get_by_role("link", name = "Delete Account").click()
+
+    def logout(self):
+        self.page.get_by_role("link", name = "Logout").click()

@@ -18,3 +18,8 @@ class UserData:
         self.city = "Los Angeles"
         self.zipcode = "90001"
         self.mobile = "1234567890"
+
+class ExistingUserData:
+    def __init__(self):
+        self.email = "ddd123@gmail.com"
+        self.password = "ddd123"
