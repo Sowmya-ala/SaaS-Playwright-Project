@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f95652-d292-452f-b76c-9171fd6169c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_returning_user_with_existingemail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <recent name="C:\Users\sowmy\PycharmProjects\UI and API regression\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_returning_user.test_returning_user">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email">
     <configuration name="Python tests for tests.test_api.test_get_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI and API regression" />
       <option name="ENV_FILES" value="" />
@@ -87,21 +88,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.test_invalid_login.test_invalid_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_login.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="UI and API regression" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_login.test_valid_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -135,13 +121,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI and API regression" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email" />
         <item itemvalue="Python tests.Python tests for tests.test_returning_user.test_returning_user" />
         <item itemvalue="Python tests.Python tests for tests.test_new_user.test_new_user" />
         <item itemvalue="Python tests.Python tests for tests.test_api.test_get_users" />
         <item itemvalue="Python tests.Python tests for tests.test_invalid_login.test_invalid_login" />
-        <item itemvalue="Python tests.Python tests for tests.test_login.test_valid_login" />
       </list>
     </recent_temporary>
   </component>
