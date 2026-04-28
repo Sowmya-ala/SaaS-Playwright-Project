@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f95652-d292-452f-b76c-9171fd6169c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_returning_user_with_existingemail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/contact_us_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/contact_us_form.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_contact_us_form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +45,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for tests.New_user.test_new_user.executor": "Run",
     "Python tests.Python tests for tests.test_api.test_get_users.executor": "Run",
+    "Python tests.Python tests for tests.test_contact_us_form.test_contact_us_form.executor": "Run",
     "Python tests.Python tests for tests.test_invalid_login.test_invalid_login.executor": "Run",
     "Python tests.Python tests for tests.test_login.test_valid_login.executor": "Run",
     "Python tests.Python tests for tests.test_new_user.test_new_user.executor": "Run",
     "Python tests.Python tests for tests.test_returning_user.test_returning_user.executor": "Run",
+    "Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -60,7 +65,7 @@
       <recent name="C:\Users\sowmy\PycharmProjects\UI and API regression\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_contact_us_form.test_contact_us_form">
     <configuration name="Python tests for tests.test_api.test_get_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI and API regression" />
       <option name="ENV_FILES" value="" />
@@ -76,7 +81,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_invalid_login.test_invalid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_contact_us_form.test_contact_us_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI and API regression" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,8 +91,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_invalid_login.test_invalid_login&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;tests.test_contact_us_form.test_contact_us_form&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -138,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_contact_us_form.test_contact_us_form" />
         <item itemvalue="Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email" />
         <item itemvalue="Python tests.Python tests for tests.test_returning_user.test_returning_user" />
         <item itemvalue="Python tests.Python tests for tests.test_new_user.test_new_user" />
         <item itemvalue="Python tests.Python tests for tests.test_api.test_get_users" />
-        <item itemvalue="Python tests.Python tests for tests.test_invalid_login.test_invalid_login" />
       </list>
     </recent_temporary>
   </component>

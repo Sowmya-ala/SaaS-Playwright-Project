@@ -10,3 +10,6 @@ class HomePage:
 
     def logout(self):
         self.page.get_by_role("link", name = "Logout").click()
+
+    def contact_us(self):
+        self.page.get_by_role("link", name = "Contact Us").click()
