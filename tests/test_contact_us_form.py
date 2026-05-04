@@ -22,7 +22,8 @@ def test_contact_us_form(page):
     # Variables for form submission created dynamically to avoid hardcoding and to make the test more robust
     contact_us_page.submit_form(name,existing_user_data.email,subject,message)
     expect(page.locator("#contact-page .alert-success")).to_be_visible()
-    #expect(page.get_by_text("Success! Your details have been submitted successfully.")).to_be_visible()
+
+
     # navigating back to Home page
     contact_us_page.click_home()
     expect(page.get_by_text("Full-Fledged practice website for Automation Engineers").first).to_be_visible()

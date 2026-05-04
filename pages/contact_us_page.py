@@ -11,6 +11,5 @@ class ContactUsPage:
         self.page.on("dialog", lambda dialog: dialog.accept())
         self.page.locator("input[name='submit']").click()
 
-
     def click_home(self):
         self.page.locator("#contact-page a.btn-success").click()

@@ -16,3 +16,6 @@ class HomePage:
 
     def navigate_to_testcases(self):
         self.page.locator("ul.nav a[href='/test_cases']").click()
+
+    def navigate_to_products(self):
+        self.page.locator("ul.nav a[href='/products']").click()

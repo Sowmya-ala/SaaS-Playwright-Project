@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f95652-d292-452f-b76c-9171fd6169c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_testcases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/products_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_all_products_and_product_details_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact_us_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact_us_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_contact_us_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_contact_us_form.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,33 +41,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for tests.New_user.test_new_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_api.test_get_users.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_contact_us_form.test_contact_us_form.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_invalid_login.test_invalid_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_login.test_valid_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_new_user.test_new_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_returning_user.test_returning_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_testcases.test_validate_testcases.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sowmy/PycharmProjects/UI and API regression&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for tests.New_user.test_new_user.executor": "Run",
+    "Python tests.Python tests for tests.test_all_products_and_product_details_page.test_all_products_and_product_details_page.executor": "Run",
+    "Python tests.Python tests for tests.test_api.test_get_users.executor": "Run",
+    "Python tests.Python tests for tests.test_contact_us_form.test_contact_us_form.executor": "Run",
+    "Python tests.Python tests for tests.test_invalid_login.test_invalid_login.executor": "Run",
+    "Python tests.Python tests for tests.test_login.test_valid_login.executor": "Run",
+    "Python tests.Python tests for tests.test_new_user.test_new_user.executor": "Run",
+    "Python tests.Python tests for tests.test_returning_user.test_returning_user.executor": "Run",
+    "Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email.executor": "Run",
+    "Python tests.Python tests for tests.test_testcases.test_validate_testcases.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sowmy/PycharmProjects/UI and API regression",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sowmy\PycharmProjects\UI and API regression\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_testcases.test_validate_testcases">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_contact_us_form.test_contact_us_form">
+    <configuration name="Python tests for tests.test_all_products_and_product_details_page.test_all_products_and_product_details_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI and API regression" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_all_products_and_product_details_page.test_all_products_and_product_details_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_contact_us_form.test_contact_us_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI and API regression" />
       <option name="ENV_FILES" value="" />
@@ -77,21 +96,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;tests.test_contact_us_form.test_contact_us_form&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_new_user.test_new_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="UI and API regression" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_new_user.test_new_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_testcases.test_validate_testcases" />
         <item itemvalue="Python tests.Python tests for tests.test_contact_us_form.test_contact_us_form" />
+        <item itemvalue="Python tests.Python tests for tests.test_all_products_and_product_details_page.test_all_products_and_product_details_page" />
+        <item itemvalue="Python tests.Python tests for tests.test_testcases.test_validate_testcases" />
         <item itemvalue="Python tests.Python tests for tests.test_returning_user_with_existingemail.test_returning_user_with_existing_email" />
         <item itemvalue="Python tests.Python tests for tests.test_returning_user.test_returning_user" />
-        <item itemvalue="Python tests.Python tests for tests.test_new_user.test_new_user" />
       </list>
     </recent_temporary>
   </component>
