@@ -13,3 +13,6 @@ class HomePage:
 
     def contact_us(self):
         self.page.get_by_role("link", name = "Contact Us").click()
+
+    def navigate_to_testcases(self):
+        self.page.locator("ul.nav a[href='/test_cases']").click()
